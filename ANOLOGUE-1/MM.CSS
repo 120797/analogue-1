@@ -1,0 +1,401 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
+}
+.libre{
+    font-family: "Libre Baskerville",serif;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.navbar{
+    padding: 25px 0;
+}
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .menu{
+    list-style:none ;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.navbar .menu a{
+    text-decoration: none;
+    color: inherit;
+
+}
+.header{
+    margin-top:100px ;
+
+}
+.header .main-title{
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 125%;
+    letter-spacing: 0em;
+    color: black;
+}
+.header .header-grid{
+    margin-top: 45px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+gap: 40px;
+}
+.header .header-circle{
+    width: 32px;
+    height: 32px;
+    background: #c4c4c4;
+    border-radius: 50%;
+    position: relative;
+    top: -20px;
+}
+.recent{
+    margin-top:200px ;
+}
+
+.recent .recent-title{
+    font-weight: 400;
+    font-size: 58px;
+    line-height:125%;
+    letter-spacing: 0em;
+    color: black;
+    
+}
+.recent .recent-main{
+    margin-top:45px;
+    display: flex;
+    gap:80px;
+    justify-content: space-between;
+}
+.recent .recent-btn{
+    margin-top: 60px;
+    background: #1f1f1f;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 0.01em;
+    color: #fff;
+    padding: 10px 32px;
+}
+.recent .recent-main .col{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    gap:65px;
+}
+
+.recent .card img {
+width:100%;
+}
+.recent .card-line{
+margin-top: 20px;
+}
+.recent .card-title{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 146%;
+    letter-spacing: 0.01em;
+    color: #464542;
+}
+.recent .card-subtitle{
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.03em;
+    color: #6d6b67;
+    font-family: "Libre Baskerville",serif;
+}
+
+.growing .growing-title{
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 134%;
+    letter-spacing: 0.01em;
+    color: #1f1f1f;
+}
+.growing .container{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.growing .growing-left{
+    width: 45%;
+}
+.growing .growing-right{
+    width:50%;
+}
+.growing .growing-p{
+    margin-top: 25px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 159%;
+    letter-spacing: 0.01em;
+    color: #1f1f1f;
+}
+.growing .growing-grid{
+    margin-top: 45px;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+.growing .card-title{
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 100%;
+    letter-spacing: 0em;
+    color: #1f1f1f;
+}
+.growing .card-subtitle{
+font-weight: 400;
+font-size: 16px;
+line-height: 169%;
+letter-spacing: 0.01em;
+color: #1f1f1f;
+}
+.text{
+    margin-top: 30px;
+    background: #fff;
+}
+.text-colients{
+    width: 672px;
+    height: 527px;
+    left: 0.05px;
+    gap: 0px;
+     
+}
+.text-titil-1{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    }
+    .text-titil-x{
+        display: flex;
+        gap: 300px;}
+    .text-titl-p{
+     gap: 19px;  
+font-size: 19px;
+font-weight: 400;
+line-height: 30px;
+margin-top: 30px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+ 
+    }
+   .text-titil-h{   
+     gap: 19px;  
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;}
+
+    .text-titil-4{
+        display: flex;
+       }
+
+      .text-titl-2{
+        margin-top: 20px;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;  
+    }
+    .text-titil-3{
+        margin-top: 20px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.20000000298023224px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;   
+    }
+  .text-titil{
+    width: 351.95px;
+height: 211px;
+left: 784px;
+gap: 0px;
+opacity: 0px;
+
+     
+}
+.text .container{
+    display: flex;
+    gap: 250px;
+}
+.text .container .text-titil .text-l{
+    width: 186px;
+height: 50px;
+top: -1.17px;
+gap: 0px;
+opacity: 0px;
+color: #1f1f1f;
+font-size: 37px;
+font-weight: 400;
+line-height: 49.4px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+  
+}
+.text-titil .text-s{
+    width: 120px;
+height: 27px;
+top: 9px;
+left: 32px;
+gap: 0px;
+opacity: 0px;
+color: #1f1f1f;
+font-size: 17px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-top: 60px;
+
+
+}
+
+.text .container .text-titil .text-a{
+    width: 316px;
+height: 50px;
+top: 48.83px;
+gap: 5px;
+opacity: 0px;
+font-family: Libre Baskerville;
+font-size: 33px;
+font-weight: 400;
+line-height: 49.4px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+
+.clients{margin-top: 10px;
+background: #f7f6f3;
+padding: 80px 0;
+}
+.clients .clients-title{
+    text-align: center;
+    margin-bottom: 36px;
+}
+.clients .clients-grid {
+    margin: 40px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 100px;
+    row-gap: 60px;
+}
+.clients .grid-item img{
+    width: 100%;
+}
+
+.ready {
+    background: #e0f391;
+    padding: 40px 0;
+  }
+  
+  .ready .ready-wrapper {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .ready .title {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 140%;
+    letter-spacing: 0.01em;
+  }
+  
+  .ready .btn {
+    margin-top: 60px;
+    background: #1f1f1f;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 0.01em;
+    color: #fff;
+    padding: 10px 32px;
+  }
+  
+  .footer {
+    background: #1f1f1f;
+    color: #fff;
+    padding: 80px 0 55px;
+  }
+  
+  
+  .footer-top .footer-title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 168%;
+    letter-spacing: 0.01em;
+    color: #fff;
+  }
+  
+  .footer .footer-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .footer-top {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    gap: 70px;
+  }
+  
+  .footer-top .list{
+    list-style: none;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 172%;
+    letter-spacing: 0.02em;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .footer .footer-bootom{
+    margin-top: 90px;
+    display: flex;  
+    justify-content: space-between;
+  }
+  
+  .footer .footer-bootom .copy{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.01em;
+    color: #fff;
+  }
+  
+  .footer .footer-bootom .copy span{
+    color: #a8a6a0;
+  }
